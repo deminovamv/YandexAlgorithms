@@ -1,3 +1,6 @@
+'''
+Дано кубическое уравнение ax^3+bx^2+cx+d=0 (a≠0). Известно, что у этого уравнения есть ровно один корень. Требуется его найти.
+'''
 def f_bin_search(left, right, eps, check, params):
     while left + eps < right:
         m = (left + right) / 2
